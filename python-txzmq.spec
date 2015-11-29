@@ -14,6 +14,7 @@ Group:		Development/Languages
 Source0:	http://pypi.python.org/packages/source/t/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	8064422e590f859bf9c5aedf94af5a5c
 URL:		http://pypi.python.org/pypi/txZMQ
+BuildRequires:	rpmbuild(macros) >= 1.710
 Patch0:		0001-Disable-epgm-test.patch
 BuildRequires:	rpm-pythonprov
 %if %{with python2}
