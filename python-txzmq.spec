@@ -8,7 +8,7 @@
 Summary:	Twisted bindings for ZeroMQ
 Name:		python-txzmq
 Version:	0.7.3
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Development/Languages
 Source0:	http://pypi.python.org/packages/source/t/%{module}/%{module}-%{version}.tar.gz
