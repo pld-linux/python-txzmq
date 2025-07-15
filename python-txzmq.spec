@@ -55,7 +55,7 @@ loop (reactor).
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 # getting this error with python-setuptools and python-distribute: http://stackoverflow.com/q/8295644
 %{__sed} -i -e '/install_requires/d' setup.py
